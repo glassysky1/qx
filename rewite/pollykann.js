@@ -29,6 +29,6 @@ if (obj.data) {
 }
 body = JSON.stringify(obj);
 
-console.log(body);
+console.log('daixiao', body);
 
 $done(body);
