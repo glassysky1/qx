@@ -15,7 +15,7 @@
 // setTimeout(function() { console.log("abc"); }, 1000);
 //
 // You can optional change the response headers at the same time by using $done({body: modifiedBody, headers: modifiedHeaders}); only change the response headers is not allowed for script-response-body. The modifiedHeaders can be copied and modified from $response.headers, please do not change the content length, type and encoding field.
-// htttp://api.pollykann.com:80 url script-response-body https://raw.githubusercontent.com/glassysky1/qx/refs/heads/main/rewite/pollykann.js
+// http://api.pollykann.com:80 url script-response-body https://raw.githubusercontent.com/glassysky1/qx/refs/heads/main/rewite/pollykann.js
 
 var body = $response.body;
 var obj = JSON.parse(body);
